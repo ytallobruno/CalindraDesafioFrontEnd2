@@ -207,22 +207,22 @@ footer {
   width: 60%;
 }
 
+footer h3 {
+  font-size: 27.2px;
+  margin-bottom: 1rem;
+}
+
 .socialIcons {
   width: 60%;
   padding-bottom: 12px;
 }
 
-.icon {
-  margin-right: 0.7rem;
+.withSpace{
+  margin: 0 0.7rem;
 }
 
 .icon:hover {
   filter: invert(40%) sepia(90%) saturate(281%) hue-rotate(180deg) brightness(90%) contrast(92%);
-}
-
-footer h3 {
-  font-size: 27.2px;
-  margin-bottom: 1rem;
 }
 
 .contact p {
@@ -361,6 +361,10 @@ footer h3 {
     flex-direction: column;
     margin-left: 0;
     padding-top: 50px;
+  }
+
+  .footerFollow {
+    width: 70%;
   }
 
   footer .footerTitle {
