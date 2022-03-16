@@ -228,3 +228,162 @@ footer h3 {
 .contact p {
   font-size: 16.2px;
 }
+
+@media only screen and (max-width: 1023px) {
+  nav .logoText,
+  nav .optionsLinks,
+  .menuDropDown {
+    display: none;
+  }
+
+  nav .zLogo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  nav .dropDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 35px;
+    cursor: pointer;
+    padding-left: 15px;
+  }
+
+  .dropDown img {
+    width: 10px;
+  }
+
+  .menuDropDown {
+    z-index: 1;
+    font-size: 1.5rem;
+    border: 1px ridge var(--marrom);
+    background-color: var(--cinza);
+    min-height: 120px;
+    padding: 0.8rem;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .dropDown:hover .menuDropDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    margin: 2.7rem 2rem 1rem 8rem;
+    min-width: 180px;
+  }
+
+  .menuDropDown a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--amarelo);
+  }
+
+  .menuDropDown a:nth-child(2n) {
+    border-top: 1px dashed var(--marrom);
+    border-bottom: 1px dashed var(--marrom);
+  }
+
+  .menuDropDown a:hover {
+    color: var(--azul);
+  }
+
+  .topSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 568px;
+  }
+
+  .topSection h1 {
+    height: 150px;
+    width: 300px;
+    font-size: 53.2px;
+  }
+
+  .topSection .topImg {
+    width: 320px;
+    height: 157px;
+  }
+
+  .bottomSection {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 568px;
+    width: 100%;
+  }
+
+  .bottomSectionText h2 {
+    width: 288px;
+    height: 96px;
+    left: 14px;
+    top: 644px;
+    font-size: 41.2px;
+  }
+
+  .bottomSection .bottomImg {
+    align-self: end;
+    width: 300px;
+    height: 199px;
+    top: 130px;
+    left: 58px;
+    margin-top: 250px;
+  }
+
+  .bottomSectionText p {
+    width: 293px;
+    height: 90px;
+    left: 14px;
+    top: 762px;
+    font-size: 26.2px;
+  }
+
+  footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 334px;
+    left: 0px;
+    top: 1134px;
+    background: var(--cinza);
+  }
+
+  footer .footerBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0;
+    padding-top: 50px;
+  }
+
+  footer .footerTitle {
+    width: 100%;
+  }
+
+  .footerTitle h3, .contact {
+    text-align: center;
+  }
+
+  .footerFollow .socialIcons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 0;
+  }
+
+  .contact {
+    width: 138px;
+  }
+
+  .contact h3 {
+    margin: 1.3rem 0;
+  }
+}
