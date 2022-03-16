@@ -104,3 +104,31 @@ nav {
 .option:hover {
   color: var(--azul);
 }
+
+main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.topSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 914px;
+  background-color: var(--cinza);
+}
+
+.topSection h1 {
+  width: 348px;
+  height: 192px;
+  top: 425px;
+  font-size: 82.2px;
+}
+
+.topSection .topImg {
+  width: 682px;
+  height: 335px;
+  top: 345px;
+  mix-blend-mode: multiply;
+}
