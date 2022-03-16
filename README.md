@@ -11,7 +11,7 @@
 
 <h2 id="sobre">Sobre 🔎</h2>
   <p>Dado o layout fornecido disponível no link abaixo, desenvolver o layout, observando as práticas de semântica e responsividade, com boas práticas de utilização dos recursos, sejam CSS, JS, etc. Você poderá pedir qualquer tipo de recurso extra para o site (ex. fontes, vetores entre outras coisas que achar necessário).</p>
-  <p>Para visualizar o layout proposto <a href="https://www.figma.com/file/GTEyrXtVtgSDeiocLk7KzCFf/layout-teste-avaliacao?node-id=0%3A1">clique aqui</a>.</p>
+  <p>Para visualizar o layout proposto <a href="https://www.figma.com/file/GTEyrXtVtgSDeiocLk7KzCFf/layout-teste-avaliacao?node-id=0%3A1">clique aqui</a> e para visualizar o projeto finalizado, <a href="https://ytallobruno.github.io/CalindraDesafioFrontEnd2/">clique aqui</a>.</p>
 
 <img src="./assets/docs/ZuttermanPage.png" alt="imagem da tela do página home do projeto">
 
@@ -20,6 +20,7 @@
 <h2 id="andamento">Andamento do projeto 📈</h2>
 
   ![Badge](https://img.shields.io/website?down_message=em%20andamento&label=STATUS&style=for-the-badge&up_message=conclu%C3%ADdo&url=https%3A%2F%2Fytallobruno.github.io%2FCalindraDesafioFrontEnd2%2F)
+
 
 <h2 id="linguagens">Softwares & Ferramentas utilizadas nesse projeto 📚</h2>
 
