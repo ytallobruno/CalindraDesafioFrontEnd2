@@ -26,3 +26,81 @@
   border-radius: 8px;
   border: 3px solid var(--cinza);
 }
+
+.nameLogo,
+.slogan,
+.option {
+  color: var(--amarelo);
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  height: 110px;
+  padding: 45px;
+  width: 100%;
+  align-items: center;
+}
+
+.dropDown {
+  display: none;
+}
+
+.zLogo {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.nameLogo {
+  width: 168px;
+  height: 48px;
+  left: 147px;
+  top: 20px;
+  font-size: 41.2px;
+  font-weight: bolder;
+}
+
+.slogan {
+  height: 19px;
+  left: 151px;
+  top: 68px;
+  font-size: 16.2px;
+  letter-spacing: 5.4px;
+}
+
+.optionsLinks {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+}
+
+.option {
+  text-decoration: none;
+  height: 19px;
+  left: 812px;
+  top: 47px;
+  font-size: 16.2px;
+  letter-spacing: 5.4px;
+}
+
+.option:hover {
+  color: var(--azul);
+}
