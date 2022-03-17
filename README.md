@@ -19,7 +19,7 @@
 
 <h2 id="andamento">Andamento do projeto 📈</h2>
 
-  ![Badge](https://img.shields.io/website?down_message=em%20andamento&label=STATUS&style=for-the-badge&up_message=conclu%C3%ADdo&url=https%3A%2F%2Fytallobruno.github.io%2FCalindraDesafioFrontEnd2%2F)
+  ![Badge](https://img.shields.io/website?down_color=red&down_message=EM%20ANDAMENTO&label=Status&style=for-the-badge&up_color=green&up_message=CONCLUIDO&url=https%3A%2F%2Fytallobruno.github.io%2FCalindraDesafioFrontEnd2%2F)
 
 
 <h2 id="linguagens">Softwares & Ferramentas utilizadas nesse projeto 📚</h2>
